@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+/* header */
+.header-formulario{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+header{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+.logoytitulo{
+    display: flex;
+}
+.titulo-header{
+    display: flex;
+    color: pink;
+    justify-content: center;
+    margin: 5px;
+}
+.corazon {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    }
+.menu{
+        display: flex;
+        position: absolute;
+    }
+a{
+        color: pink;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+/* main */
+h1{
+    text-align: center;
+}
+.presentacion{
+    text-align: center;
+}
+.imagenes{
+margin: 5px;
+padding: 5px;
+flex-direction: row;
+justify-content: center;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+.pie{
+    color: pink;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.formulario {
+    text-align: center;
+    margin-top: 2rem;
+}
+button {
+    background-color: pink;
+    width: 40%;
+    border-radius: 2rem;
+}
+input {
+    width: 80%;
+}
+textarea {
+    width: 80%;
+}
+.volver{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.subtitulo-historia{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 10px 50px 10px 50px;
+}
+@media (min-width:768px){
+  /* header */
+  .header-formulario{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+  header{
+    background-color: black;
+    flex-direction: column;
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+.titulo-header{
+    display: flex;
+    color: pink;
+    justify-content: center;
+    margin: 15px 5px 15px 5px;
+    padding: 5px;
+}
+.corazon {
+height: 40px;
+width: 40px;
+margin: 5px;
+padding: 5px;
+position: relative;
+left: 5px;
+bottom: 5px;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+a{
+    color: pink;
+    text-decoration: none;
+    margin: 5px 5px 15px 5px;
+    padding: 5px;
+
+}
+/* main */
+
+h1{
+    text-align: center;
+}
+.presentacion{
+    text-align: center;
+}
+.imagenes{
+margin: 5px;
+padding: 5px;
+display: flex;
+justify-content: center;
+
+}
+img{
+    width: 25%;
+    height: 25%;
+}
+.galeria{
+    margin: 5px;
+padding: 5px;
+display: flex;
+justify-content: center;
+}
+.galeria2{
+    margin: 5px;
+padding: 5px;
+display: flex;
+justify-content: center;
+}
+.galeria3{
+    margin: 5px;
+padding: 5px;
+display: flex;
+justify-content: center;
+}
+.volver{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.subtitulo-historia{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+/* footer */
+
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+.pie{
+    color: pink;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*formulario */
+.formulario {
+    text-align: center;
+    margin-top: 2rem;
+}
+button {
+    background-color: pink;
+    width: 10%;
+    border-radius: 2rem;
+}
+input {
+    width: 20%;
+}
+textarea {
+    width: 20%;
+}
+.footer-formulario{
+    position: fixed;
+    bottom: 0px;
+}
+}
